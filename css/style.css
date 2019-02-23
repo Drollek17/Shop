@@ -3,10 +3,16 @@ html, body{
 	margin: 0;
 }
 
+body{
+	background-color:;
+}
+
 header{
 	background-color: #003300;
 	padding: 40px;
 	text-align: center;
+	height: 200px;
+	overflow: hidden;
 }
 
 h1{
@@ -36,7 +42,7 @@ p.caption{
 	color: lightgrey;
 }
 
-ul{
+ul, ol{
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -60,4 +66,30 @@ footer ul{
 footer ul li{
 	display: inline-block;
 	margin: 0 5px;
+}
+
+.topnav {
+  background-color: #b38f00;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #003300;
+  color: white;
+}
+
+
+.topnav a.active {
+  background-color: #003300;
+  color: white;
 }
